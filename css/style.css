@@ -2,8 +2,76 @@
 body {
     font-family: Arial, sans-serif;
 }
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* HEADER  */
 header {
     font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* header top  */
+.header-top {
+    background-color: black;
+
+    /* test  */
+    color: white;
+}
+.header-top .logo {
+    text-align: right;
+}
+
+/* header bottom  */
+.header-bottom {
+    
+    /* test  */
+    background-color: tomato;
+    padding: 20px 0;
+}
+.burger-menu {
+    text-align: right;
+}
+.header-bottom .menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.header-bottom .menu a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-bottom .menu.right {
+    text-align: right;
+}
+
+/* MAIN  */
+.jumbotron {
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    /* test  */
+    background-color: khaki;
+    height: 650px;
+    margin-top: 88px;
+    
+}
+.jumbotron .box-content {
+
+    /* test  */
+    padding-top: 350px;
+    color: white;
+}
+@media (min-width: 992px) {
+    .jumbotron .box-content {
+        width: 40%;
+    }
 }
