@@ -7,7 +7,9 @@ header ul {
     margin: 0;
     padding: 0;
 }
-
+img {
+    width: 100%;
+}
 /* HEADER  */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -51,27 +53,87 @@ header {
 }
 
 /* MAIN  */
+/* SECTION  */
 .jumbotron {
-    background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-
     /* test  */
     background-color: khaki;
-    height: 650px;
-    margin-top: 88px;
-    
+    height: 650px;  
 }
-.jumbotron .box-content {
-
-    /* test  */
-    padding-top: 350px;
+.jumbotron .jumbo-box {
     color: white;
 }
 @media (min-width: 992px) {
-    .jumbotron .box-content {
+    .jumbotron .jumbo-box {
         width: 40%;
     }
+}
+/* SECTION #1 jumbotron-top  */
+.jumbotron-top {
+    background-image: url("../img/jumbo-bg.png");
+    margin-top: 88px;
+}
+.jumbotron-top .jumbo-box {
+
+    /* test  */
+    padding-top: 350px;
+}
+
+/* SECTION #2 screenshots  */
+section.screenshots {
+    
+    /* test  */
+    padding: 40px 0;
+    background-color: lemonchiffon;
+}
+.screenshots .box-img {
+    margin-bottom: 20px;
+
+    /* test  */
+    /* padding: 3px; */
+    /* border: 2px solid blue; */
+    /* border-radius: 20px; */
+}
+.screenshots .box-img img {
+    border-radius: 20px;
+
+    /* test  */
+    /* padding: 3px;
+    border: 2px solid blue; */
+    
+}
+
+/* SECTION #3 playstation5  */
+.playstation5 .section-heading {
+    text-align: center;
+}
+.playstation5 .section-box {
+
+    /* test  */
+    background-color: lightgreen;
+}
+.playstation5 .box-img {
+
+    /* test  */
+    padding: 10px;
+    background-color: lightpink;
+}
+/* need for test above REMEMBER REMOVE  */
+.col > .box-img {
+    padding: 0;
+    background-color: none;
+}
+
+/* SECTION #4 jumbotron-middle  */
+.jumbotron-middle {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+/* SECTION 5 new releases  */
+.new-releases {
+    background-color: #1f1f1f;
+    color: white;
 }
