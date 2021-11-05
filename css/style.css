@@ -151,3 +151,25 @@ section.gallery {
     background-color: #161c3b;
     color: white;
 }
+
+/* SECTION #8 social media  */
+.social-media {
+
+    /* test  */
+    max-width: 576px;
+    margin: auto;
+}
+.social-media .box-img {
+
+    /* REMEMBER same as section 7 REMEMBER */
+    padding-bottom: 20px;
+}
+
+/* FOOTER  */
+footer {
+    background-color: #00439c;
+    color: white;
+}
+footer ul {
+    list-style-type: none;
+}
