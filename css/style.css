@@ -17,11 +17,12 @@ img {
 }
 .ms_btn-gray {
     background-color: #363636;
-    border-radius: 20px;
 }
 .ms_btn-orange {
     background-color: #cd3d0f;
     color: white;
+}
+.ms_btn-rounded {
     border-radius: 20px;
 }
 /* HEADER  */
@@ -114,12 +115,17 @@ main {
     margin-top: 111px;
 }
 /* SECTION  */
+.section-heading {
+    text-align: center;
+}
 .section-heading h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 .section-heading p {
+    font-size: 22px;
     margin-bottom: 18px;
+    color: #727272;
 }
 /* general jumbotron  */
 .jumbotron {
@@ -135,6 +141,14 @@ main {
         width: 40%;
     }
 }
+.jumbotron .section-heading {
+    text-align: left;
+}
+.jumbotron .section-heading p {
+    font-size: 16px;
+    color: white;
+}
+
 /* SECTION #1 jumbotron-top  */
 .jumbotron-top {
     background-image: url("../img/jumbo-bg.png");
@@ -144,49 +158,63 @@ main {
     width: 50%;
     margin-bottom: 20px;
 }
+
 /* SECTION #2 gallery  */
 section.gallery {
-    
-    /* test  */
     padding: 40px 0;
-    background-color: lemonchiffon;
 }
 .gallery .box-img {
     margin-bottom: 20px;
-
-    /* test  */
-    /* padding: 3px; */
-    /* border: 2px solid blue; */
-    /* border-radius: 20px; */
 }
 .gallery .box-img img {
     border-radius: 20px;
+}
+.gallery .box-img:hover {
 
     /* test  */
-    /* padding: 3px;
-    border: 2px solid blue; */
-    
+    /* padding: 3px; */
+    /* border: 2px solid blue;
+    border-radius: 25px; */
 }
 
 /* SECTION #3 playstation5  */
-.playstation5 .section-heading {
-    text-align: center;
+section.playstation5 {
+    /* test  */
+    padding: 40px 0;
+}
+.playstation5 .section-heading .upper-title {
+    color: #0876cf;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.playstation5 .section-box.section-heading {
+    text-align: left;
+}
+.playstation5 .section-box.section-heading p {
+    font-size: 20px;
 }
 .playstation5 .section-box {
+    padding-bottom: 20px;
+}
+.playstation5 .box-img.ps5-accesory {
+    text-align: center;
 
     /* test  */
-    background-color: lightgreen;
+    border-bottom: 2px solid #0876cf;
+    min-height: 135px;
 }
-.playstation5 .box-img {
-
-    /* test  */
-    padding: 10px;
-    background-color: lightpink;
+@media (min-width: 768px) {
+    .playstation5 .box-img.ps5-accesory img {
+        width: 60px;
+    }
 }
-/* need for test above REMEMBER REMOVE  */
-.col > .box-img {
-    padding: 0;
-    background-color: none;
+@media (min-width: 992px) {
+    .playstation5 .box-img.ps5-accesory {
+        min-height: 161px;
+    }
+    .playstation5 .box-img.ps5-accesory img {
+        width: 110px;
+    }
 }
 
 /* SECTION #4 jumbotron-middle  */
