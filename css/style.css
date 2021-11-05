@@ -10,6 +10,20 @@ header ul {
 img {
     width: 100%;
 }
+
+/* buttons & effects  */
+.btn:focus {
+    box-shadow: none;
+}
+.ms_btn-gray {
+    background-color: #363636;
+    border-radius: 20px;
+}
+.ms_btn-orange {
+    background-color: #cd3d0f;
+    color: white;
+    border-radius: 20px;
+}
 /* HEADER  */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -21,47 +35,97 @@ header {
 
 /* header top  */
 .header-top {
-    background-color: black;
-
-    /* test  */
-    color: white;
+    background-color: #000000;
+}
+.header-top .logo-box {
+    padding: 5px 0;
+    text-align: right;
 }
 .header-top .logo {
-    text-align: right;
+    width: 80px;
 }
 
 /* header bottom  */
 .header-bottom {
-    
-    /* test  */
-    background-color: tomato;
-    padding: 20px 0;
+    padding: 15px 0 10px 0;
+    background-color: #ffffff;
 }
-.burger-menu {
-    text-align: right;
+.header-bottom .logo-box .logo{
+    width: auto;
 }
+/* burger menu  */
+.header-bottom .burger-menu {
+    text-align: right; 
+}
+.header-bottom .burger-menu .btn:hover {
+    color: #737373;
+}
+.header-bottom .burger-menu a {
+    border: 1px solid #e5e5e5;
+}
+.header-bottom .burger-menu i {
+    font-size: 35px;  
+    color: #737373;
+}
+
+/* menu central  */
 .header-bottom .menu li {
+    vertical-align: middle;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 .header-bottom .menu a {
     text-decoration: none;
     color: inherit;
+    font-weight: 600;
 }
+.header-bottom .menu .chevron-box {
+    display: inline-block;
+    margin-left: 5px;
+}
+.header-bottom .menu .chevron,
+.header-bottom .menu .chevron-blue {
+    width: 10px;
+}
+.header-bottom .menu .chevron-blue {
+    display: none;
+}
+/* hover chevron box  */
+.menu .chevron-box:hover .chevron {
+    display: none;
+}
+.menu .chevron-box:hover .chevron-blue {
+    display: inline-block;
+}
+
+/* menu right  */
 .header-bottom .menu.right {
     text-align: right;
 }
+.header-bottom .menu.right .btn {
+    color: white;
+}
+.header-bottom .menu.right .lens {
+    width: 25px;
+}
 
 /* MAIN  */
+main {
+    margin-top: 111px;
+}
 /* SECTION  */
+.section-heading h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-heading p {
+    margin-bottom: 18px;
+}
+/* general jumbotron  */
 .jumbotron {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
-
-    /* test  */
-    background-color: khaki;
-    height: 650px;  
 }
 .jumbotron .jumbo-box {
     color: white;
@@ -74,14 +138,12 @@ header {
 /* SECTION #1 jumbotron-top  */
 .jumbotron-top {
     background-image: url("../img/jumbo-bg.png");
-    margin-top: 88px;
+    padding: 200px 0 50px 0;
 }
-.jumbotron-top .jumbo-box {
-
-    /* test  */
-    padding-top: 350px;
+.jumbotron-top .jumbo-box .box-img {
+    width: 50%;
+    margin-bottom: 20px;
 }
-
 /* SECTION #2 gallery  */
 section.gallery {
     
