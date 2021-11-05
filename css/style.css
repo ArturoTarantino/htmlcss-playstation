@@ -82,14 +82,14 @@ header {
     padding-top: 350px;
 }
 
-/* SECTION #2 screenshots  */
-section.screenshots {
+/* SECTION #2 gallery  */
+section.gallery {
     
     /* test  */
     padding: 40px 0;
     background-color: lemonchiffon;
 }
-.screenshots .box-img {
+.gallery .box-img {
     margin-bottom: 20px;
 
     /* test  */
@@ -97,7 +97,7 @@ section.screenshots {
     /* border: 2px solid blue; */
     /* border-radius: 20px; */
 }
-.screenshots .box-img img {
+.gallery .box-img img {
     border-radius: 20px;
 
     /* test  */
@@ -135,5 +135,19 @@ section.screenshots {
 /* SECTION 5 new releases  */
 .new-releases {
     background-color: #1f1f1f;
+    color: white;
+}
+
+/* SECTION #7 playstation service  */
+.playstation-service .ps-plus {
+    background-color: #bebcbb;
+}
+.ps-store .box-img {
+
+    /* test  */
+    padding-bottom: 20px;
+}
+.playstation-service .ps-now {
+    background-color: #161c3b;
     color: white;
 }
