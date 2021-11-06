@@ -25,6 +25,7 @@ img {
 .ms_btn-rounded {
     border-radius: 20px;
 }
+
 /* HEADER  */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -114,7 +115,8 @@ header {
 main {
     margin-top: 111px;
 }
-/* SECTION  */
+
+/* SECTION common */
 .section-heading {
     text-align: center;
 }
@@ -126,6 +128,16 @@ main {
     font-size: 22px;
     margin-bottom: 18px;
     color: #727272;
+}
+/* playstation section (common in section #3 and #6) */
+.playstation .section-box .section-heading {
+    text-align: left;
+}
+.playstation .section-box .section-heading p {
+    font-size: 20px;
+}
+.playstation .container > .section-heading {
+    margin-bottom: 70px;
 }
 /* general jumbotron  */
 .jumbotron {
@@ -141,6 +153,11 @@ main {
         width: 40%;
     }
 }
+
+.jumbotron .jumbo-box .box-img {
+    width: 50%;
+    margin-bottom: 20px;
+}
 .jumbotron .section-heading {
     text-align: left;
 }
@@ -154,10 +171,7 @@ main {
     background-image: url("../img/jumbo-bg.png");
     padding: 200px 0 50px 0;
 }
-.jumbotron-top .jumbo-box .box-img {
-    width: 50%;
-    margin-bottom: 20px;
-}
+
 
 /* SECTION #2 gallery  */
 section.gallery {
@@ -179,7 +193,6 @@ section.gallery {
 
 /* SECTION #3 playstation5  */
 section.playstation5 {
-    /* test  */
     padding: 40px 0;
 }
 .playstation5 .section-heading .upper-title {
@@ -187,12 +200,7 @@ section.playstation5 {
     text-transform: uppercase;
     font-weight: 600;
 }
-.playstation5 .section-box.section-heading {
-    text-align: left;
-}
-.playstation5 .section-box.section-heading p {
-    font-size: 20px;
-}
+
 .playstation5 .section-box {
     padding-bottom: 20px;
 }
@@ -220,13 +228,47 @@ section.playstation5 {
 /* SECTION #4 jumbotron-middle  */
 .jumbotron-middle {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    padding: 40px 0;
 }
 
 /* SECTION 5 new releases  */
 .new-releases {
     background-color: #1f1f1f;
     color: white;
+    padding: 30px 0 50px 0;
 }
+.new-releases .section-heading {
+    text-align: left;
+}
+.new-releases .section-heading h2 {
+    font-size: 35px;
+}
+.new-releases .section-heading p {
+    color: white;
+}
+.new-releases .release-box {
+    padding: 20px 0;
+}
+.release-box .box-img img {
+    border-radius: 20px;
+}
+.release-box .box-text {
+    margin-top: 20px;
+}
+.release-box .box-text h4 {
+    font-size: 17px;
+}
+
+/* SECTION 6 playstation 4*/
+section.playstation4 {
+    padding: 70px 0;
+}
+.playstation4 .section-heading .reg-mark {
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: text-top;
+}
+
 
 /* SECTION #7 playstation service  */
 .playstation-service .ps-plus {
