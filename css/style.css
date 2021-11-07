@@ -326,14 +326,17 @@ section.playstation4 {
 
 /* SECTION #8 social media  */
 .social-media {
-
-    /* test  */
+    padding: 60px 0;
     max-width: 576px;
     margin: auto;
 }
-.social-media .box-img {
-
-    /* REMEMBER same as section 7 REMEMBER */
+.social-media .section-heading {
+    margin-bottom: 70px;
+}
+.social-media .section-heading h3 {
+    font-size: 30px;
+}
+.social-media .box-link {
     padding-bottom: 20px;
 }
 
@@ -341,7 +344,43 @@ section.playstation4 {
 footer {
     background-color: #00439c;
     color: white;
+    padding: 70px 0;
 }
 footer ul {
     list-style-type: none;
+}
+
+.box-logo-language .logo {
+    width: 100px;
+}
+.box-logo-language .language {
+    margin: 20px 0;
+}
+.box-logo-language .language .country {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.box-logo-language .language .icon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+.sony-group {
+    font-size: 14px;
+}
+.sony-group .logo {
+    width: 150px;
+}
+.sony-group .sony-copy {
+    margin-top: 10px;
+}
+.sony-group .sony-link {
+    color: white;
 }
