@@ -58,6 +58,7 @@ header {
 .header-bottom {
     padding: 15px 0 10px 0;
     background-color: #ffffff;
+    font-size: 15px;
 }
 .header-bottom .logo-box .logo{
     width: auto;
@@ -113,6 +114,7 @@ header {
 }
 .header-bottom .menu.right .btn {
     color: white;
+    font-size: 15px;
 }
 .header-bottom .menu.right .lens {
     width: 25px;
@@ -127,7 +129,8 @@ main {
 .section-heading {
     text-align: center;
 }
-.section-heading h2 {
+.section-heading h2,
+.section-heading h3 {
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -181,21 +184,21 @@ main {
 
 
 /* SECTION #2 gallery  */
-section.gallery {
+.gallery {
     padding: 40px 0;
 }
-.gallery .box-img {
+.gallery figure {
     margin-bottom: 20px;
 }
-.gallery .box-img img {
+.gallery figure img {
     border-radius: 20px;
 }
-.gallery .box-img:hover {
+.gallery figure:hover {
 
     /* test  */
-    /* padding: 3px; */
-    /* border: 2px solid blue;
-    border-radius: 25px; */
+    padding: 3px;
+    border: 2px solid #0072ce;
+    border-radius: 25px;
 }
 
 /* SECTION #3 playstation5  */
@@ -213,10 +216,12 @@ section.playstation5 {
 }
 .playstation5 .box-img.ps5-accesory {
     text-align: center;
-
-    /* test  */
-    border-bottom: 2px solid #0876cf;
     min-height: 135px;
+    margin-bottom: 10px;
+}
+.playstation5 .box-img.ps5-accesory:hover {
+    border-bottom: 2px solid #0876cf;
+    
 }
 @media (min-width: 768px) {
     .playstation5 .box-img.ps5-accesory img {
