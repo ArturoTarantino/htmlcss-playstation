@@ -168,6 +168,11 @@ main {
     width: 50%;
     margin-bottom: 20px;
 }
+@media (min-width: 768px) {
+    .jumbotron .jumbo-box .box-img {
+        width: 60%;
+    }
+}
 .jumbotron .section-heading {
     text-align: left;
 }
@@ -189,15 +194,15 @@ main {
 }
 .gallery figure {
     margin-bottom: 20px;
+    padding: 3px;
+    border: 2px solid transparent;
 }
 .gallery figure img {
     border-radius: 20px;
+    
 }
 .gallery figure:hover {
-
-    /* test  */
-    padding: 3px;
-    border: 2px solid #0072ce;
+    border-color:  #0072ce;
     border-radius: 25px;
 }
 
@@ -318,7 +323,7 @@ section.playstation4 {
     margin: auto;
     margin-bottom: 50px;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .ps-store .section-heading {
         width: 100%;
     }
